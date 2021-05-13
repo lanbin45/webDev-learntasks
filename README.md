@@ -91,8 +91,8 @@
 
 1. Vue 入门：
 
-   1. 阅读 Vue 3 官方文档 https://v3.cn.vuejs.org/guide/ 开头的 _基础_ 部分，使用 Vue 复刻 Tic Tac Toe 小游戏
-   1. 继续阅读 Vue 3 官方文档 https://v3.cn.vuejs.org/guide/ 的 _深入组件_ 和 _可复用 & 组合_ 部分，使用 Vue Composition API 复刻 Tic Tac Toe 小游戏
+   1. 阅读 Vue 2 官方文档 https://cn.vuejs.org/v2/guide/ 开头的 _基础_ 部分，使用 Vue 复刻 Tic Tac Toe 小游戏
+   1. 继续阅读 Vue 2 官方文档 https://cn.vuejs.org/v2/guide/ 的 _深入了解组件_ 和 _可复用 & 组合_ 部分，使用 Vue Composition API 复刻 Tic Tac Toe 小游戏
    1. 阅读 https://github.com/vuejs/jsx-next, 使用 Vue Composition API + JSX 复刻 Tic Tac Toe 小游戏
 
 1. 回到 DOM API:
@@ -104,8 +104,7 @@
 
   - Vue 官方教程写得非常非常好，新版的 React 官方教程 + React 团队成员 Dan Abramov 的技术博客也不错。一般来说不必去学习网上那些收费的文字或视频教程
   - React Function Component + Hooks 已经代替 React Class Component 成为当前全球前端就业热点，hooks 的原理有点反直觉，一定要搞明白
-  - Vue 建议直接从 Vue 3 学起。Vue 3 composition API + Typescript 应该是今后几年的国内前端就业热点
-  - 和 Vue 单文件组件 (SFC) 相比，JSX 的写法更容易维护，所以也建议学习并尝试在 Vue 中写 JSX
+  
 
 # 4. 当代前端主流框架进阶： 用 React & Vue 实现 ToDoMVC
 
@@ -118,6 +117,8 @@
 
 1. TodoMVC (https://todomvc.com/examples/vanillajs/) 是一个标准的前端视图开发入门项目。与上一个任务类似，这次请使用以下五种技术，复刻五个版本的 TodoMVC。要求界面 css 样式和原版完全一样，但不要求支持浏览器地址栏地址（URL）随操作变化的功能（即不要求有路由功能）。
 
+   这里暂时只要求使用Vue 2.x，后续感兴趣可以尝试使用以下几种方式实现:
+   
    1. React Class Component API
    1. React Hooks API
    1. Vue 3 Options API + Template
@@ -153,20 +154,18 @@
    1. 在五个版本中，你为 TodoMVC 这个 app 设计了怎样的数据结构来保存以完成、未完成的 todo 列表信息？（即 Model 层设计）
    1. 在五个版本中，你是遵循怎样的思路把这些 Model 数据转化为页面上显示的内容的？又是怎样把用户在页面上的操作行为转化为对 Model 数据的修改的？（即 Model 层和 View 层的互动）
    1. 你认为 Vue 和 React 的最本质区别是什么？是双向绑定 vs 单向数据流吗？是 template vs JSX 语法吗？是实现数据-视图响应联动的方法不同吗？还是别的什么？请详述。
-   1. React 在函数组件里使用 Hook 时，`useRef` `useMemo` `useCallback` 各有什么用？如果不使用它们会怎样？这表明了 React 怎样的视图更新原理?
-   1. Vue 3 的 `ref` 为什么必须要加一个 `.value` 属性？ `reactive` 为什么必须是一个对象？这表明了 Vue 怎样的视图更新原理？
-   1. 为什么 React 很强调 “不变性/Immutability” “对象引用不变/Object Referenctial Equality” ”通过 SCU Memo useCallback 等来优化性能“，而 Vue 从来不强调这些？这表明了两者怎样的原理差别？有人说 “React 的视图更新全部依赖不可变性，而 Vue 的试图更新全部依赖可变性”，从基础原理上看，两者各有什么优缺点？
-   1. 以 https://justjavascript.com/ 邮件教程中提到的 JS 心智模型 （Mental Model）作为参考，对比你熟悉的任一其他语言，说说不同语言背后的基础心智模型有哪些区别。
+   
    
 # 5. 前端路由
 
 ## 任务
 
-观察原版 TodoMVC (https://todomvc.com/examples/vanillajs/) 的浏览器地址栏内容（即 URL）是怎么根据用户操作而变化的，浏览器前进后退按钮是怎么配合 URL 工作的，然后给你自己的以下三个版本 TodoMVC 都加上相应的功能。
+观察原版 TodoMVC (https://todomvc.com/examples/vanillajs/) 的浏览器地址栏内容（即 URL）是怎么根据用户操作而变化的，浏览器前进后退按钮是怎么配合 URL 工作的，<strike>然后给你自己的以下三个版本 TodoMVC 都加上相应的功能。</strike>，
 
-1. React Hooks API
-1. Vue 3 Options API + Template: 使用传统的 `this.$router` `this.$route` 语法
-~~1. Vue 3 Composition API + JSX: 使用和 Composition API 配套的 `useRouter` `useRoute` 语法
+
+
+<strike> 1. React Hooks API </strike>
+<strike> 1. 使用Vue 2.x和 Vue-router完成相应功能: 使用传统的 `this.$router` `this.$route` 语法 </strike>
 
 ## 推荐教程和参考文档
 
@@ -180,10 +179,8 @@
 
 ## 任务
 
-为以下两个版本的 TodoMVC 添加服务端数据存取功能，做到每次关闭页面重新打开之后数据不消失：
+使用Vue 2.x 为 TodoMVC 添加服务端数据存取功能，做到每次关闭页面重新打开之后数据不消失：
 
-1. React Hooks API
-1. Vue 3 Composition API + JSX
 
 【TODO】将为此任务提供一个公共后端服务地址，一次存取所有 Todo 数据。
 
@@ -206,8 +203,8 @@
 
 为两个版本的 TodoMVC 分别自建 http 服务：
 
-1. React Hooks API: 建立 NodeJS Express 后端框架的 http server
-1. Vue 3 Composition API + JSX: 建立 Python Flask 后端框架的 http server
+1. Vue 2.x: 建立 NodeJS Express 后端框架的 http server
+<strike> 1. Vue 3 Composition API + JSX: 建立 Python Flask 后端框架的 http server </strike>
 
 服务器应提供以下俩两个功能：
 
@@ -225,7 +222,7 @@
 
 ## 任务
 
-改进上节任务中的 react/express 版本的 TodoMVC，做到：
+改进上节任务中的 vue2.x/express 版本的 TodoMVC，做到：
 
 1. 后端不再使用内存保存数据，改用文件保存，以免在 http 服务重启后丢失数据；
 1. 自行设计前端用户注册、登入、登出页面，以及相关后端功能，把不同用户的数据保存在后端的不同文件内，用户应能够读写各自的数据；
@@ -259,25 +256,26 @@
 
 - 先不需要深究 TS 里面那些高级功能，如 infer 等。我们不是框架作者，只是使用者，学会用 TS 做基本类型标注即可。结合 VSCode, TS, React hooks, Vue 3 Compostion API, JSX(TSX), 可以获得极好的开发体验，有效降低开发心智负担
 
-~~# 10. Web 全栈前沿技术：Blitz.js 全栈框架 + Prisma 数据访问层 + 前端 Chakra UI 样式与组件库
+<strike># 10. Web 全栈前沿技术：Blitz.js 全栈框架 + Prisma 数据访问层 + 前端 Chakra UI 样式与组件库
 
-~~## 任务
+## 任务
 
-~~用 Blitz.js 全栈框架复刻功能更复杂的 Microsoft To-Do （https://to-do.live.com/）：
+用 Blitz.js 全栈框架复刻功能更复杂的 Microsoft To-Do （https://to-do.live.com/）：
 
-~~1. 先仔细研究 Microsoft To-Do 功能，确定前后端数据结构
+1. 先仔细研究 Microsoft To-Do 功能，确定前后端数据结构
 1. 使用 Prisma schema 描述后端数据结构
-~~1. 在 blitz 中构造前端 react 组件树，以及后端 query/mutation，复刻完整的 To-Do 功能
+1. 在 blitz 中构造前端 react 组件树，以及后端 query/mutation，复刻完整的 To-Do 功能
 1. 提供适当的 HTTP 缓存和 CORS 支持，并提高 HTTP Headers 安全性
-~~1. 组件样式可考虑使用 Chakra UI
+1. 组件样式可考虑使用 Chakra UI
 
-~~- 之前 TodoMVC 后端数据结构简单，我们使用内存、文件等形式来保存。微软 To-Do 数据结构较复杂，这次我们需要使用数据库来保存。但鉴于 SQL、MongoDB 等后端常用数据库技术超出了本次教学范围，我们这次使用 prisma 数据访问层来包装后端 SQL 数据库，隐藏起了 SQL 的技术细节，以便让大家更加集中精力学习 Web 前后端相关内容；
+- 之前 TodoMVC 后端数据结构简单，我们使用内存、文件等形式来保存。微软 To-Do 数据结构较复杂，这次我们需要使用数据库来保存。但鉴于 SQL、MongoDB 等后端常用数据库技术超出了本次教学范围，我们这次使用 prisma 数据访问层来包装后端 SQL 数据库，隐藏起了 SQL 的技术细节，以便让大家更加集中精力学习 Web 前后端相关内容；
 - 请着重体会 Blitz 框架前后端贯通的 “无 HTTP API” 写法，前后端 API 的函数签名、Typescript 类型都自动推导，非常适合快速开发。
 
-~~## 推荐教程和参考文档
+## 推荐教程和参考文档
 
-~~1. Blitz 官网: https://blitzjs.com/
+1. Blitz 官网: https://blitzjs.com/
 1. Blitz 文档中文版: https://github.com/blitz-js/zh-hans.blitzjs.com (正在翻译中)
-~~1. Prisma 官网：https://www.prisma.io/
-~~1. HTTP: https://developer.mozilla.org/zh-CN/docs/Web/HTTP
-~~1. Chakra UI: https://chakra-ui.com/ 
+1. Prisma 官网：https://www.prisma.io/
+1. HTTP: https://developer.mozilla.org/zh-CN/docs/Web/HTTP
+1. Chakra UI: https://chakra-ui.com/  
+</strike>

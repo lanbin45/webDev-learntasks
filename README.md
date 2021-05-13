@@ -7,6 +7,8 @@
 1. git
 1. nodejs
 
+> 本文档提供的部分任务和知识点提供React和Vue两种版本，以Vue为主，React的内容仅列做参考，方便您以后学习，不做考察
+
 # 1. Web 开发基础知识：HTML/CSS/JS
 
 ## 任务
@@ -44,7 +46,7 @@
 
 ## 任务
 
-在上次作业基础上，使用历史上的三种主流方法生成动态页面：
+在上次作业基础上，尝试使用历史上的三种主流方法生成动态页面（或三选一）：
 
 1. CGI/ASP/PHP 时代：运用你学过的后端语言的编程能力，动态拼接字符串生成 html 页面，向前端输出动态页面内容;
 2. DOM/jQuery 时代：使用 JS DOM API 的动态修改页面能力，在浏览器中“命令式”地生成动态内容；
@@ -164,7 +166,7 @@
 
 1. React Hooks API
 1. Vue 3 Options API + Template: 使用传统的 `this.$router` `this.$route` 语法
-1. Vue 3 Composition API + JSX: 使用和 Composition API 配套的 `useRouter` `useRoute` 语法
+~~1. Vue 3 Composition API + JSX: 使用和 Composition API 配套的 `useRouter` `useRoute` 语法
 
 ## 推荐教程和参考文档
 
@@ -257,25 +259,25 @@
 
 - 先不需要深究 TS 里面那些高级功能，如 infer 等。我们不是框架作者，只是使用者，学会用 TS 做基本类型标注即可。结合 VSCode, TS, React hooks, Vue 3 Compostion API, JSX(TSX), 可以获得极好的开发体验，有效降低开发心智负担
 
-# 10. Web 全栈前沿技术：Blitz.js 全栈框架 + Prisma 数据访问层 + 前端 Chakra UI 样式与组件库
+~~# 10. Web 全栈前沿技术：Blitz.js 全栈框架 + Prisma 数据访问层 + 前端 Chakra UI 样式与组件库
 
-## 任务
+~~## 任务
 
-用 Blitz.js 全栈框架复刻功能更复杂的 Microsoft To-Do （https://to-do.live.com/）：
+~~用 Blitz.js 全栈框架复刻功能更复杂的 Microsoft To-Do （https://to-do.live.com/）：
 
-1. 先仔细研究 Microsoft To-Do 功能，确定前后端数据结构
+~~1. 先仔细研究 Microsoft To-Do 功能，确定前后端数据结构
 1. 使用 Prisma schema 描述后端数据结构
-1. 在 blitz 中构造前端 react 组件树，以及后端 query/mutation，复刻完整的 To-Do 功能
+~~1. 在 blitz 中构造前端 react 组件树，以及后端 query/mutation，复刻完整的 To-Do 功能
 1. 提供适当的 HTTP 缓存和 CORS 支持，并提高 HTTP Headers 安全性
-1. 组件样式可考虑使用 Chakra UI
+~~1. 组件样式可考虑使用 Chakra UI
 
-- 之前 TodoMVC 后端数据结构简单，我们使用内存、文件等形式来保存。微软 To-Do 数据结构较复杂，这次我们需要使用数据库来保存。但鉴于 SQL、MongoDB 等后端常用数据库技术超出了本次教学范围，我们这次使用 prisma 数据访问层来包装后端 SQL 数据库，隐藏起了 SQL 的技术细节，以便让大家更加集中精力学习 Web 前后端相关内容；
+~~- 之前 TodoMVC 后端数据结构简单，我们使用内存、文件等形式来保存。微软 To-Do 数据结构较复杂，这次我们需要使用数据库来保存。但鉴于 SQL、MongoDB 等后端常用数据库技术超出了本次教学范围，我们这次使用 prisma 数据访问层来包装后端 SQL 数据库，隐藏起了 SQL 的技术细节，以便让大家更加集中精力学习 Web 前后端相关内容；
 - 请着重体会 Blitz 框架前后端贯通的 “无 HTTP API” 写法，前后端 API 的函数签名、Typescript 类型都自动推导，非常适合快速开发。
 
-## 推荐教程和参考文档
+~~## 推荐教程和参考文档
 
-1. Blitz 官网: https://blitzjs.com/
+~~1. Blitz 官网: https://blitzjs.com/
 1. Blitz 文档中文版: https://github.com/blitz-js/zh-hans.blitzjs.com (正在翻译中)
-1. Prisma 官网：https://www.prisma.io/
-1. HTTP: https://developer.mozilla.org/zh-CN/docs/Web/HTTP
-1. Chakra UI: https://chakra-ui.com/
+~~1. Prisma 官网：https://www.prisma.io/
+~~1. HTTP: https://developer.mozilla.org/zh-CN/docs/Web/HTTP
+~~1. Chakra UI: https://chakra-ui.com/ 

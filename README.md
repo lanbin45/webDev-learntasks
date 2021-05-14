@@ -4,8 +4,20 @@
 
 1. chrome，建议添加“彩云小译”扩展，用于英文文档的中英文对照阅读
 1. vscode
-1. git
+1. git 
 1. nodejs
+
+## 参考资料和教程
+
+以下教程仅供环境配置参考，能配置开发环境即可，后续使用时，不会的命令可以以此作为备查
+
+1. vscode 使用教程: https://zhuanlan.zhihu.com/p/113222681
+1. git 使用教程: http://xqdoc.imedao.com/1533b6a26a1124b3fe570db9.pdf
+1. node推荐使用版本管理工具: 
+   - nvm (windows): https://www.jianshu.com/p/24371f85c832 
+   - n (mac): https://www.jianshu.com/p/a52bb03cb279
+1. node包管理工具推荐使用 yarn https://yarnpkg.com/
+
 
 > 本文档提供的部分任务和知识点提供React和Vue两种版本，以Vue为主，React的内容仅列做参考，方便您以后学习，不做考察
 
@@ -33,6 +45,12 @@
 1. MDN https://developer.mozilla.org/zh-CN/docs/Learn
 1. HTML: https://developer.mozilla.org/zh-CN/docs/Web/HTML/Reference
 1. CSS: https://developer.mozilla.org/zh-CN/docs/Web/CSS/Reference
+1. JS:
+   1. https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/First_steps
+   1. https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Building_blocks
+   1. https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array
+   1. https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object
+   1. https://es6.ruanyifeng.com/ （先看 0 - 5, 7 - 11, 16, 21 - 22 章）
 
 注意事项：
 
@@ -63,7 +81,7 @@
 1. JS: https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference
 1. DOM: https://www.w3school.com.cn/htmldom/index.asp
 1. Web API: https://developer.mozilla.org/zh-CN/docs/Web/API
-1. Vue 3 官方站: https://v3.cn.vuejs.org/
+1. Vue 2 官方站: https://cn.vuejs.org/v2/
 
 # 3. 当代前端主流框架入门： 用 React & Vue 实现 Tic Tac Toe 小游戏
 

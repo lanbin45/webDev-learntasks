@@ -1,11 +1,7 @@
-[slide]
-
 # 前端概述：技能
 
-![前端图谱](/assets/img/tech.jpg)
+![前端图谱](/documents/assets/img/tech.jpg)
 [来源：笼统的前端](http://www.vichily.com/2017/02/28/%E7%AC%BC%E7%BB%9F%E7%9A%84%E5%89%8D%E7%AB%AF/)
-
-[slide]
 
 # 前端概述：主要语言
 
@@ -14,8 +10,6 @@
 1. HTML： 页面结构
 2. CSS： 页面样式
 3. JavaScript： 页面行为
-
-[slide]
 
 # HTML
 
@@ -33,8 +27,6 @@
   </body>
 </html>
 ```
-
-[slide]
 
 # CSS
 
@@ -59,8 +51,6 @@
 <p style="color: red">Sample Text</p>
 ```
 
-[slide]
-
 # CSS 选择器
 
 1. 简单选择器：标签、类、id、通配符、属性、伪类
@@ -79,8 +69,6 @@ div > a {
 div ~ a {
 } // 兄弟选择器
 ```
-
-[slide]
 
 ```html
 <html>
@@ -107,8 +95,6 @@ div ~ a {
 
 [效果展示](http://jsbin.com/sufucep/2/edit?html,output)
 
-[slide]
-
 # CSS 选择器优先级
 
 ---
@@ -118,14 +104,10 @@ div ~ a {
 - 类、伪类的属性选择器的数量 == 10
 - 标签选择器和伪元素选择器的数量 == 1
 
-[slide]
-
 # JavaScript
 
 ![内容](/img/intro/javascript-env.png)
 [来源：JavaScript 介绍](http://chanshuyi.github.io/frontend_notebook/chapter2/01_javascript_intro.html)
-
-[slide]
 
 # JavaScript: 数据类型
 
@@ -139,8 +121,6 @@ div ~ a {
 6. 数组（Array）
 7. 对象（Object）
 
-[slide]
-
 # JavaScript: 变量声明
 
 1. var、 let、 const
@@ -150,8 +130,6 @@ div ~ a {
 var a = []
 var b = new Array()
 ```
-
-[slide]
 
 # JavaScript: 作用域
 
@@ -169,8 +147,6 @@ bar()
 console.log(foo, x) // foo, foobar
 ```
 
-[slide]
-
 # JavaScript: 作用域经典问题
 
 ```js
@@ -187,8 +163,6 @@ arry.forEach(function (func, idx) {
 // 预期结果是 0, 1, 2, 3, 4
 // 实际结果是 5, 5, 5, 5, 5
 ```
-
-[slide]
 
 # JavaScript: 作用域经典问题
 
@@ -208,8 +182,6 @@ arry.forEach(function (func, idx) {
 })
 ```
 
-[slide]
-
 # JavaScript: 闭包
 
 1. 函数内部可以引用函数外部的变量
@@ -217,8 +189,6 @@ arry.forEach(function (func, idx) {
 
 - 函数是一等公民，可以当做参数传递也可以当做返回值
 - 如果变量被引用，即使函数结束变量也不会被清空
-
-[slide]
 
 # JavaScript: 闭包作用
 
@@ -252,8 +222,6 @@ var Singleton = function (ConstructFunc) {
 }
 ```
 
-[slide]
-
 # JavaScript: 函数
 
 ---
@@ -262,8 +230,6 @@ var Singleton = function (ConstructFunc) {
 2. 对象属性
 3. 匿名函数
 4. 构造函数
-
-[slide]
 
 # JavaScript: 原型
 
@@ -277,27 +243,19 @@ console.log(p.maxAge)
 p.name = 'rainy'
 ```
 
-[slide]
-
 # JavaScript: 原型链
 
 ![prototype](http://7xiijd.com1.z0.glb.clouddn.com/js-proto.jpg)
 [来源:图解 Javascript 原型链](http://blog.rainy.im/2015/07/20/prototype-chain-in-js/)
-
-[slide]
 
 # JavaScript: 原型链
 
 - 原型和原型链是 JS 实现继承的一种模型。
 - 原型链的形成是真正是靠`__proto__` 而非`prototype`
 
-[slide]
-
 # DOM
 
 ![dom tree](/img/intro/dom-tree.jpg)
-
-[slide]
 
 # DOM 事件模型
 
@@ -305,8 +263,6 @@ p.name = 'rainy'
 2. 冒泡阶段
 
 ![dom tree](/img/intro/event.png)
-
-[slide]
 
 # DOM 事件示例
 
@@ -331,19 +287,13 @@ btn.addEventListener('click', handler)
 btn.removeEventListener('click', handler)
 ```
 
-[slide]
-
 # JavaScript 运行机制简介
 
 ![event loop](/img/intro/event-loop.jpg)
 
-[slide]
-
 # Thanks
 
 Q&A
-
-[slide]
 
 # 参考
 
@@ -355,8 +305,6 @@ Q&A
 6. [ECMAScript 和 JavaScript 的关系](http://es6.ruanyifeng.com/#docs/intro#ECMAScript-和-JavaScript-的关系)
 7. [来源:图解 Javascript 原型链](http://blog.rainy.im/2015/07/20/prototype-chain-in-js/)
 8. [avaScript 运行机制详解：再谈 Event Loop](http://www.ruanyifeng.com/blog/2014/10/event-loop.html)
-
-[slide]
 
 # 拓展阅读
 

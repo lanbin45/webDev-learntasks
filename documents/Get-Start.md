@@ -289,10 +289,6 @@ btn.removeEventListener('click', handler)
 
 ![event loop](/documents/assets/img/event-loop.jpg)
 
-# Thanks
-
-Q&A
-
 # 参考
 
 1. [Web 前端发展简史](https://wenku.baidu.com/view/35f72bc1cf84b9d529ea7a7f.html)

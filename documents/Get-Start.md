@@ -1,6 +1,6 @@
 # 前端概述：技能
 
-![前端图谱](/documents/assets/img/tech.jpg)
+![前端图谱](/documents/assets/img/tech.jpeg)
 [来源：笼统的前端](http://www.vichily.com/2017/02/28/%E7%AC%BC%E7%BB%9F%E7%9A%84%E5%89%8D%E7%AB%AF/)
 
 # 前端概述：主要语言

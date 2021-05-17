@@ -106,7 +106,7 @@ div ~ a {
 
 # JavaScript
 
-![内容](/img/intro/javascript-env.png)
+![内容](/documents/assets/img/javascript-env.png)
 [来源：JavaScript 介绍](http://chanshuyi.github.io/frontend_notebook/chapter2/01_javascript_intro.html)
 
 # JavaScript: 数据类型
@@ -255,14 +255,12 @@ p.name = 'rainy'
 
 # DOM
 
-![dom tree](/img/intro/dom-tree.jpg)
+![dom tree](/documents/assets/img/dom-tree.jpg)
 
 # DOM 事件模型
 
 1. 捕获阶段
 2. 冒泡阶段
-
-![dom tree](/img/intro/event.png)
 
 # DOM 事件示例
 
@@ -289,7 +287,7 @@ btn.removeEventListener('click', handler)
 
 # JavaScript 运行机制简介
 
-![event loop](/img/intro/event-loop.jpg)
+![event loop](/documents/assets/img/event-loop.jpg)
 
 # Thanks
 

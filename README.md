@@ -4,21 +4,22 @@
 
 1. chrome，建议添加“彩云小译”扩展，用于英文文档的中英文对照阅读
 1. vscode
-1. git 
+1. git
 1. nodejs
 
 ## 要求
-1. 学习之前创建一个github账号，新建一个repo，每天以markdown格式文件，按日期命名完成以下两个部分内容：
+
+1. 学习之前创建一个 github 账号，新建一个 repo，每天以 markdown 格式文件，按日期命名完成以下两个部分内容：
    - **学习笔记**： 记录你每天学习过程中认为有用处的学习笔记；
    - **每日学习总结**: 每天学习完毕，多花十分钟，总结自己的笔记，整理自己的学习思路，巩固记忆。 `此项每天检查`
    - **练习项目的代码**: 后续学习中对应的项目代码整理归档；
- 
-有以下几个目的:
-   - 督促学习；
-   - 联系git 代码使用，所以代码和md文件提交尽量使用命令行模式；
-   - 学习markdown语法；
-   - 总结回顾每日学习的内容，整理思路
 
+有以下几个目的:
+
+- 督促学习；
+- 联系 git 代码使用，所以代码和 md 文件提交尽量使用命令行模式；
+- 学习 markdown 语法；
+- 总结回顾每日学习的内容，整理思路
 
 ## 参考资料和教程
 
@@ -26,14 +27,14 @@
 
 1. vscode 使用教程: https://zhuanlan.zhihu.com/p/113222681
 1. git 使用教程: http://xqdoc.imedao.com/1533b6a26a1124b3fe570db9.pdf
-1. node推荐使用版本管理工具: 
-   - nvm (windows): https://www.jianshu.com/p/24371f85c832 
+1. node 推荐使用版本管理工具:
+   - nvm (windows): https://www.jianshu.com/p/24371f85c832
    - n (mac): https://www.jianshu.com/p/a52bb03cb279
-1. node包管理工具推荐使用 yarn https://yarnpkg.com/
-1. markdown语法教程: https://www.markdown.xyz/basic-syntax/ 
+1. node 包管理工具推荐使用 yarn https://yarnpkg.com/
+1. markdown 语法教程: https://www.markdown.xyz/basic-syntax/
+1. 免费梯子工具, 需要请自取: https://ikuuu.org/auth/register?code=2gdh
 
-
-> 本文档提供的部分任务和知识点提供React和Vue两种版本，以Vue为主，React的内容仅列做参考，方便您以后学习，不做考察
+> 本文档提供的部分任务和知识点提供 React 和 Vue 两种版本，以 Vue 为主，React 的内容仅列做参考，方便您以后学习，不做考察
 
 # 1. Web 开发基础知识：HTML/CSS/JS
 
@@ -136,7 +137,6 @@
 
   - Vue 官方教程写得非常非常好，新版的 React 官方教程 + React 团队成员 Dan Abramov 的技术博客也不错。一般来说不必去学习网上那些收费的文字或视频教程
   - React Function Component + Hooks 已经代替 React Class Component 成为当前全球前端就业热点，hooks 的原理有点反直觉，一定要搞明白
-  
 
 # 4. 当代前端主流框架进阶： 用 React & Vue 实现 ToDoMVC
 
@@ -149,8 +149,8 @@
 
 1. TodoMVC (https://todomvc.com/examples/vanillajs/) 是一个标准的前端视图开发入门项目。与上一个任务类似，这次请使用以下五种技术，复刻五个版本的 TodoMVC。要求界面 css 样式和原版完全一样，但不要求支持浏览器地址栏地址（URL）随操作变化的功能（即不要求有路由功能）。
 
-   这里暂时只要求使用Vue 2.x，后续感兴趣可以尝试使用以下几种方式实现:
-   
+   这里暂时只要求使用 Vue 2.x，后续感兴趣可以尝试使用以下几种方式实现:
+
    1. React Class Component API
    1. React Hooks API
    1. Vue 3 Options API + Template
@@ -170,7 +170,7 @@
    1. 结合 JS 变量内存模型分析，JS 中哪些数据类型是 **可变** 的，哪些数据类型是 **不可变** 的？
    1. JS 关于数组和对象的方法和解构语法中，哪些方法和语法会修改原值，哪些不修改原值而是返回新值？
    1. JS 的 `const` 表明了对象 **不可重新赋值**，这和对象、数组的可变性冲突吗？为什么？
-   
+
 1. 深入学习 React 基础原理：
 
    1. https://overreacted.io/react-as-a-ui-runtime/ （中文版翻译有很多错误，请中英对照阅读）
@@ -186,18 +186,15 @@
    1. 在五个版本中，你为 TodoMVC 这个 app 设计了怎样的数据结构来保存以完成、未完成的 todo 列表信息？（即 Model 层设计）
    1. 在五个版本中，你是遵循怎样的思路把这些 Model 数据转化为页面上显示的内容的？又是怎样把用户在页面上的操作行为转化为对 Model 数据的修改的？（即 Model 层和 View 层的互动）
    1. 你认为 Vue 和 React 的最本质区别是什么？是双向绑定 vs 单向数据流吗？是 template vs JSX 语法吗？是实现数据-视图响应联动的方法不同吗？还是别的什么？请详述。
-   
-   
+
 # 5. 前端路由
 
 ## 任务
 
 观察原版 TodoMVC (https://todomvc.com/examples/vanillajs/) 的浏览器地址栏内容（即 URL）是怎么根据用户操作而变化的，浏览器前进后退按钮是怎么配合 URL 工作的，<strike>然后给你自己的以下三个版本 TodoMVC 都加上相应的功能。</strike>，
 
-
-
 <strike> 1. React Hooks API </strike>
-<strike> 1. 使用Vue 2.x和 Vue-router完成相应功能: 使用传统的 `this.$router` `this.$route` 语法 </strike>
+<strike> 1. 使用 Vue 2.x 和 Vue-router 完成相应功能: 使用传统的 `this.$router` `this.$route` 语法 </strike>
 
 ## 推荐教程和参考文档
 
@@ -211,8 +208,7 @@
 
 ## 任务
 
-使用Vue 2.x 为 TodoMVC 添加服务端数据存取功能，做到每次关闭页面重新打开之后数据不消失：
-
+使用 Vue 2.x 为 TodoMVC 添加服务端数据存取功能，做到每次关闭页面重新打开之后数据不消失：
 
 【TODO】将为此任务提供一个公共后端服务地址，一次存取所有 Todo 数据。
 
@@ -236,7 +232,7 @@
 为两个版本的 TodoMVC 分别自建 http 服务：
 
 1. Vue 2.x: 建立 NodeJS Express 后端框架的 http server
-<strike> 1. Vue 3 Composition API + JSX: 建立 Python Flask 后端框架的 http server </strike>
+   <strike> 1. Vue 3 Composition API + JSX: 建立 Python Flask 后端框架的 http server </strike>
 
 服务器应提供以下俩两个功能：
 
@@ -310,4 +306,4 @@
 1. Prisma 官网：https://www.prisma.io/
 1. HTTP: https://developer.mozilla.org/zh-CN/docs/Web/HTTP
 1. Chakra UI: https://chakra-ui.com/  
-</strike>
+   </strike>

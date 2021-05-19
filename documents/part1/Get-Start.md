@@ -1,6 +1,6 @@
 # 前端概述：技能
 
-![前端图谱](/documents/assets/img/tech.jpeg)
+![前端图谱](./assets/img/tech.jpeg)
 [来源：笼统的前端](http://www.vichily.com/2017/02/28/%E7%AC%BC%E7%BB%9F%E7%9A%84%E5%89%8D%E7%AB%AF/)
 
 # 前端概述：主要语言
@@ -106,7 +106,7 @@ div ~ a {
 
 # JavaScript
 
-![内容](/documents/assets/img/javascript-env.png)
+![内容](./assets/img/javascript-env.png)
 [来源：JavaScript 介绍](http://chanshuyi.github.io/frontend_notebook/chapter2/01_javascript_intro.html)
 
 # JavaScript: 数据类型
@@ -255,7 +255,7 @@ p.name = 'rainy'
 
 # DOM
 
-![dom tree](/documents/assets/img/dom-tree.jpg)
+![dom tree](./assets/img/dom-tree.jpg)
 
 # DOM 事件模型
 
@@ -287,7 +287,7 @@ btn.removeEventListener('click', handler)
 
 # JavaScript 运行机制简介
 
-![event loop](/documents/assets/img/event-loop.jpg)
+![event loop](./assets/img/event-loop.jpg)
 
 # 参考
 

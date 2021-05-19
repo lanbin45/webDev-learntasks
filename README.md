@@ -66,6 +66,7 @@
    1. https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array
    1. https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object
    1. https://es6.ruanyifeng.com/ （先看 0 - 5, 7 - 11, 16, 21 - 22 章）
+1. flex 布局博客可以参考阮一峰的这篇，讲得比较通透: https://www.ruanyifeng.com/blog/2015/07/flex-examples.html
 
 注意事项：
 

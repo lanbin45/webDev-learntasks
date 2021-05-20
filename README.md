@@ -33,6 +33,8 @@
 1. node 包管理工具推荐使用 yarn https://yarnpkg.com/
 1. markdown 语法教程: https://www.markdown.xyz/basic-syntax/
 1. 免费梯子工具, 需要请自取: https://ikuuu.org/auth/register?code=2gdh
+1. vue-devtools 开发插件: https://chrome.pictureknow.com/extension?id=d50143a5f53d406dbe992277bfc90521
+1. @vue/cli-service: https://cli.vuejs.org/guide/cli-service.html
 
 > 本文档提供的部分任务和知识点提供 React 和 Vue 两种版本，以 Vue 为主，React 的内容仅列做参考，方便您以后学习，不做考察
 

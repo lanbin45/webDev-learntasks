@@ -51,6 +51,46 @@
 <p style="color: red">Sample Text</p>
 ```
 
+# 盒模型
+
+## 标准盒模型
+
+    标准 W3C 盒子模型的范围包括 margin、border、padding、content，并且 content 部分不包含其他部分
+
+    ![标准盒模型](./assets/img/标准盒模型.png)
+
+## IE 盒模型
+
+     IE 盒子模型的范围也包括 margin、border、padding、content，和标准 W3C 盒子模型不同的是：IE 盒子模型的 content 部分包含了 border 和 pading
+
+    ![IE盒模型](./assets/img/IE盒模型.png)
+
+## CSS 如何设置这两种模型
+
+```css
+box-sizing: conent-box;
+box-sizing: border-box;
+```
+
+# 四种布局
+
+- static
+
+> static 布局是 HTML 元素默认的布局方式，并且 static 布局的元素不会受到 top/left/bottom/right 属性的影响。布局元素的位置即其在标准文档流中的位置。
+
+- relative
+
+> 相对布局是相对其在标准文档流中的位置而言的。设置其 top/left/bottom/right 属性会使该元素脱离标准文档流，但是其在标准文档流中的位置依然被保留，不会被其他元素填补。
+
+- fixed
+
+> fixed 布局是相对于屏幕视点进行定位的，意味着即使拖动页面滚动轴移动时，采用该布局的元素相对屏幕的位置不发生改变。 
+> fixed 布局可以使用 top/left/bottom/right 进行定位，采用 fixed 布局的元素完全脱离了标准文档流，其原来在标准文档流中的位置会被其他元素占据；
+
+- absolute
+
+> 绝对定位元素是相对于其最邻近的已定位的祖先元素进行定位的。如果一个绝对定位的元素没有已定位的祖先元素，则使用 document body 作为已定位元素。这里所说的“已定位元素”指的是采用除了 static 以外的布局方式父元素，包括采用 absolute 定位的父元素。
+
 # CSS 选择器
 
 1. 简单选择器：标签、类、id、通配符、属性、伪类

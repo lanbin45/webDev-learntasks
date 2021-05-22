@@ -62,7 +62,7 @@
 1. MDN https://developer.mozilla.org/zh-CN/docs/Learn
 1. HTML: https://developer.mozilla.org/zh-CN/docs/Web/HTML/Reference
 1. CSS: https://developer.mozilla.org/zh-CN/docs/Web/CSS/Reference
-1. JS:
+1. JS: 查看过程中，有一些代码可以 f12 打开浏览器控制台
    1. https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/First_steps
    1. https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Building_blocks
    1. https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array
@@ -77,6 +77,12 @@
 - 如果有读不太懂的地方，大概率是翻译问题，可以另开一个英文版页面，中英版本对照阅读
 - 少数页面还没有中文版本，可使用 chrome 自带的翻译工具、或“彩云小译”翻译插件阅读
 - 读文档时，可随时在 vscode 编辑器里实际写一点页面来测试，在 chrome 里看实际效果
+
+## 知识点回顾
+
+1. 从前端经典面试题 `在浏览器输入 URL 回车之后发生了什么` https://juejin.cn/post/6844903922084085773 ，整体理解并串联起前端的重要概念
+1. 阮一峰这个 ES6 教程 https://es6.ruanyifeng.com/ 可以多看一下，以后编码中高频使用；
+1. 结合一些面试常见问题，重点巩固面试要用的知识,比如： https://segmentfault.com/a/1190000021966814
 
 # 2. web 开发技术演进历史
 

@@ -126,21 +126,21 @@
    1. https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Client-side_web_APIs/
    1. https://www.w3school.com.cn/htmldom/index.asp
 
-1. React 入门：
+~~1. React 入门~~
 
-   1. 阅读 React 官方入门教程 https://zh-hans.reactjs.org/tutorial/tutorial.html, 并根据教程完成 Tic Tac Toe 小游戏（具体做法教程都告诉你了，就是跟着实现一遍）
-   1. 阅读 React 官方文档 https://zh-hans.reactjs.org/docs/getting-started.html, 按顺序看以下部分： _核心概念_； _高级指引_ 下的 _Context_、_Fragment_、_深入 JSX_、_性能优化_、_协调_、_Refs & DOM_、_非受控组件_；_HOOK_），使用 Hook API 复刻 Tic Tac Toe 小游戏
+1.  阅读 React 官方入门教程 https://zh-hans.reactjs.org/tutorial/tutorial.html, 并根据教程完成 Tic Tac Toe 小游戏（具体做法教程都告诉你了，就是跟着实现一遍）
+1.  阅读 React 官方文档 https://zh-hans.reactjs.org/docs/getting-started.html, 按顺序看以下部分： _核心概念_； _高级指引_ 下的 _Context_、_Fragment_、_深入 JSX_、_性能优化_、_协调_、_Refs & DOM_、_非受控组件_；_HOOK_），使用 Hook API 复刻 Tic Tac Toe 小游戏
 
-1. Vue 入门：
+1.  Vue 入门：
 
-   1. 阅读 Vue 2 官方文档 https://cn.vuejs.org/v2/guide/ 开头的 _基础_ 部分，使用 Vue 复刻 Tic Tac Toe 小游戏
-   1. 继续阅读 Vue 2 官方文档 https://cn.vuejs.org/v2/guide/ 的 _深入了解组件_ 和 _可复用 & 组合_ 部分，使用 Vue Composition API 复刻 Tic Tac Toe 小游戏
-   1. 阅读 https://github.com/vuejs/jsx-next, 使用 Vue Composition API + JSX 复刻 Tic Tac Toe 小游戏
+    1.  阅读 Vue 2 官方文档 https://cn.vuejs.org/v2/guide/ 开头的 _基础_ 部分，使用 Vue 复刻 Tic Tac Toe 小游戏
+    1.  继续阅读 Vue 2 官方文档 https://cn.vuejs.org/v2/guide/ 的 _深入了解组件_ 和 _可复用 & 组合_ 部分，使用 Vue2 复刻 Tic Tac Toe 小游戏
+        ~~1. 阅读 https://github.com/vuejs/jsx-next, 使用 Vue Composition API + JSX 复刻 Tic Tac Toe 小游戏~~
 
-1. 回到 DOM API:
-   1. 阅读 React 作者之一 Dan Abramov 的文章 https://overreacted.io/the-bug-o-notation/, 体会前端框架的意义
-   1. 不使用任何前端框架，用原生 DOM API 复刻 Tic Tac Toe 小游戏。注意，上面这篇文章表明，即使都是用 DOM API，代码组织水平也有高下之分。在没有框架约束的情况下，请仔细斟酌你的代码结构，尽量提高可读性、可维护性
-   1. 对比这六个版本，你认为 Vue 和 React 这样的前端库/框架，和原始的 JS DOM API 相比，带来了什么好处，解决了什么问题？
+1.  回到 DOM API:
+    1.  阅读 React 作者之一 Dan Abramov 的文章 https://overreacted.io/the-bug-o-notation/, 体会前端框架的意义
+    1.  不使用任何前端框架，用原生 DOM API 复刻 Tic Tac Toe 小游戏。注意，上面这篇文章表明，即使都是用 DOM API，代码组织水平也有高下之分。在没有框架约束的情况下，请仔细斟酌你的代码结构，尽量提高可读性、可维护性
+    1.  对比这几个版本，你认为 Vue 和 React 这样的前端库/框架，和原始的 JS DOM API 相比，带来了什么好处，解决了什么问题？
 
 - 说明：
 

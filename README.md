@@ -111,7 +111,7 @@
 
 ## 任务
 
-本次各组任务相同：使用六种不同的技术完成 React 官方教程所示的 Tic Tac Toe 小游戏 （https://codepen.io/gaearon/pen/gWWZgR）：
+本次各组任务相同：使用六种不同的技术完成 React 官方教程所示的 Tic Tac Toe 小游戏 （ https://codepen.io/gaearon/pen/gWWZgR ）：
 
 1. 无论你 JS 基础如何，请按顺序阅读以下 JS 文档，必要的话上手做点小练习：
 
@@ -128,14 +128,14 @@
 
 ~~1. React 入门~~
 
-1.  阅读 React 官方入门教程 https://zh-hans.reactjs.org/tutorial/tutorial.html, 并根据教程完成 Tic Tac Toe 小游戏（具体做法教程都告诉你了，就是跟着实现一遍）
-1.  阅读 React 官方文档 https://zh-hans.reactjs.org/docs/getting-started.html, 按顺序看以下部分： _核心概念_； _高级指引_ 下的 _Context_、_Fragment_、_深入 JSX_、_性能优化_、_协调_、_Refs & DOM_、_非受控组件_；_HOOK_），使用 Hook API 复刻 Tic Tac Toe 小游戏
+~~1. 阅读 React 官方入门教程 https://zh-hans.reactjs.org/tutorial/tutorial.html, 并根据教程完成 Tic Tac Toe 小游戏（具体做法教程都告诉你了，就是跟着实现一遍）~~
+~~1. 阅读 React 官方文档 https://zh-hans.reactjs.org/docs/getting-started.html, 按顺序看以下部分： _核心概念_； _高级指引_ 下的 _Context_、_Fragment_、_深入 JSX_、_性能优化_、_协调_、_Refs & DOM_、_非受控组件_；_HOOK_），使用 Hook API 复刻 Tic Tac Toe 小游戏~~
 
 1.  Vue 入门：
 
     1.  阅读 Vue 2 官方文档 https://cn.vuejs.org/v2/guide/ 开头的 _基础_ 部分，使用 Vue 复刻 Tic Tac Toe 小游戏
     1.  继续阅读 Vue 2 官方文档 https://cn.vuejs.org/v2/guide/ 的 _深入了解组件_ 和 _可复用 & 组合_ 部分，使用 Vue2 复刻 Tic Tac Toe 小游戏
-        ~~1. 阅读 https://github.com/vuejs/jsx-next, 使用 Vue Composition API + JSX 复刻 Tic Tac Toe 小游戏~~
+        ~~1. 阅读 https://github.com/vuejs/jsx-next, 使用 Vue2 复刻 Tic Tac Toe 小游戏~~
 
 1.  回到 DOM API:
     1.  阅读 React 作者之一 Dan Abramov 的文章 https://overreacted.io/the-bug-o-notation/, 体会前端框架的意义
@@ -180,10 +180,10 @@
    1. JS 关于数组和对象的方法和解构语法中，哪些方法和语法会修改原值，哪些不修改原值而是返回新值？
    1. JS 的 `const` 表明了对象 **不可重新赋值**，这和对象、数组的可变性冲突吗？为什么？
 
-1. 深入学习 React 基础原理：
+~~1. 深入学习 React 基础原理：~~
 
-   1. https://overreacted.io/react-as-a-ui-runtime/ （中文版翻译有很多错误，请中英对照阅读）
-   1. https://overreacted.io/a-complete-guide-to-useeffect/ （中文版翻译得不太好，请中英对照阅读）
+~~1. https://overreacted.io/react-as-a-ui-runtime/ （中文版翻译有很多错误，请中英对照阅读）~~
+~~1. https://overreacted.io/a-complete-guide-to-useeffect/ （中文版翻译得不太好，请中英对照阅读）~~
 
 1. 深入学习 Vue 基础原理：
 
@@ -210,8 +210,8 @@
 1. https://developer.mozilla.org/zh-CN/docs/Learn/Common_questions/What_is_a_URL
 1. https://developer.mozilla.org/zh-CN/docs/Web/API/History_API
 1. https://developer.mozilla.org/zh-CN/docs/Web/API/History_API/Working_with_the_History_API
-1. React Router: https://reactrouter.com/
-1. Vue Router for Vue 3: https://next.router.vuejs.org
+   ~~1. React Router: https://reactrouter.com/~~
+1. Vue Router: https://router.vuejs.org/zh/
 
 # 6. 连接前后端的信使：HTTP 与异步 JS
 

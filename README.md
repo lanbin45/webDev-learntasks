@@ -32,7 +32,7 @@
    - n (mac): https://www.jianshu.com/p/a52bb03cb279
 1. node 包管理工具推荐使用 yarn https://yarnpkg.com/
 1. markdown 语法教程: https://www.markdown.xyz/basic-syntax/
-1. 免费梯子工具, 需要请自取: https://ikuuu.org/auth/register?code=2gdh
+1. 免费梯子工具, 需要请自取: https://ikuuu.co/auth/register?code=2gdh
 1. vue-devtools 开发插件: https://chrome.pictureknow.com/extension?id=d50143a5f53d406dbe992277bfc90521
 1. @vue/cli-service: https://cli.vuejs.org/guide/cli-service.html
 
